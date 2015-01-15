@@ -1,0 +1,20 @@
+{
+    "name": "fmasa/form-wizard",
+    "description": "Multiform wizard for Nette Framework",
+    "authors": [
+        {
+            "name": "František Maša",
+            "email": "frantisekmasa1@gmail.com"
+        }
+    ],
+    "autoload": {
+	"psr-4": {"FormWizard\\": "src/FormWizard"}
+    },
+    "require": {
+        "nette/forms": "dev-master",
+        "nette/application": "2.2"
+    },
+    "require-dev": {
+        "nette/tester": "dev-master"
+    }
+}
